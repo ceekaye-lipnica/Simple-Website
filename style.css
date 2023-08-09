@@ -1,0 +1,141 @@
+#header,h2{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Georgia;
+    background-color: rgba(216, 56, 155, 0.4);
+    margin: 0%;
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow:black 3px 5px;
+    padding-bottom: 5px;
+}
+
+#logo{
+    height: 90px;
+    width: 100px;
+    border-radius: 50%;
+    border:5px solid rgb(236, 61, 96);
+    float:left;
+    padding: 0px;
+    margin:0%
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.bg-gif{
+    background-image: url(image/gif/donuts.gif);
+    height: 150px;
+ }
+
+.nav{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.greeting{
+    font-size: 20px; 
+    color: white; 
+    text-shadow: black 2px 2px;
+    background-color: rgba(216, 56, 155, 0.6);
+    padding: 5px;
+    margin-top: 30px;
+}
+li { /* more designs, dropdown list, white font*/
+    float: left;
+    display: inline-block;
+}
+li .bar{ 
+    color: whitesmoke;
+    background-color: rgba(216, 56, 155, 0.6);
+    border-left: 1px solid purple; 
+    font-size: 18px;
+    font-family: Verdana;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: black 2px 2px;
+    padding: 10px;
+    margin-left: 5px;   
+}
+li .bar:hover{
+    color: white;
+    background-color: coral;
+    text-decoration: underline;
+    padding: 15px;
+} 
+li.dropdown{display: block;}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:whitesmoke;
+    min-width: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: verdana;
+    padding: 10px;
+    text-decoration: none;
+    display:block;
+    text-align: left;
+}
+.dropdown-content a:hover{ background-color: coral;}
+
+.dropdown:hover .dropdown-content{ display:block;}
+
+body{
+    background-image: url(image/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgborder{ background-color: rgba(255, 99, 71, 0.4); }
+
+.bgborder2{ background-color: rgba(238, 28, 102, 0.4); }
+
+.bgborder3{ background-color: rgba(169, 15, 200, 0.4); }
+
+.food{ 
+    border-radius: 30%;
+   /* float: left;
+    clear: left; */
+ }
+
+.description{
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.product{
+    color:maroon;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: cursive;
+    text-shadow: rgb(241, 145, 177) 5px 5px;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: palegreen;
+    opacity: 0.6;
+    outline: 10px solid slateblue;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: impact;
+}
+
+/* 
+1. more design pa sa font text at layout.
+2. need pa ng order form 
+3. include php
+
+code started on: November 28
+code ended: ???????????? kung kailan sipagin ulit HAHAHAHAHA    
+*/
